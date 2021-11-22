@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  build_expose:
+    build:
+      context: ./latex
+      dockerfile: Dockerfile
+    volumes:
+      - ./out:/latex/out

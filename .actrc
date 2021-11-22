@@ -1,0 +1,2 @@
+# those flags will be applied before any flags provided directly on the command line
+-P ubuntu-latest=nektos/act-environments-ubuntu:18.04
